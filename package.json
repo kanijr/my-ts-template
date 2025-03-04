@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
+    "link": "npm link @swc/core @swc/helpers @types/node @types/prompt-sync typescript prompt-sync",
     "start": "node -r @swc/register src/index.ts"
   },
   "keywords": [],
